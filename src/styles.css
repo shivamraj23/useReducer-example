@@ -1,0 +1,56 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+body {
+    background-color: #f8e8ee;
+}
+.container {
+    background-color: #f2bed1;
+    color: #1a120b;
+    border-radius: 10px;
+    width: 60vw;
+    height: 40vh;
+    position: relative;
+    margin: auto;
+    margin-top: 20vh;
+    padding: 10vh;
+}
+
+.operations {
+    margin-top: 15vh;
+    justify-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.operations button {
+    height: 8vh;
+    width: 15vw;
+    background-color: #f9f5f6;
+    color: #99a98f;
+
+    border-radius: 10px;
+    border: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.value {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #f9f5f6;
+    border-radius: 10px;
+    color: #99a98f;
+    padding: 10px;
+}
+
+.timesrendered {
+    background-color: #f9f5f6;
+    border-radius: 50vh;
+    color: #99a98f;
+
+    width: 12vw;
+    border: 2px solid #fdcedf;
+    position: absolute;
+    top: 2vh;
+    right: 5vh;
+}
